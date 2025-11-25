@@ -1,0 +1,19 @@
+streamlit>=1.36.0
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.9.0
+seaborn>=0.13.2
+openpyxl>=3.1.2
+plotly==5.18.0
+scikit-learn==1.3.2
+python-dotenv>=1.0.1
+google-generativeai>=0.7.0
+
+# PACOTES CORRIGIDOS DO ECOSSISTEMA LANGCHAIN
+langchain~=0.2.0
+langchain-core~=0.2.0
+langchain-google-genai~=1.0.0
+langchain-openai~=0.1.0
+# Se você realmente usa langgraph-prebuilt, ele será instalado como dependência
+# ou você pode instalá-lo diretamente:
+# langgraph~=0.0.60
